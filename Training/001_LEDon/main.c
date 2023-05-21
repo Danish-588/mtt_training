@@ -3,10 +3,10 @@
 
 int main(void)
 {
-    SYSCTL_RCGCGPIO_R = SYSCTL_RCGCGPIO_R0; // GPIO Run Mode Clock
-    GPIO_PORTA_DIR_R  = 8; // GPIO Output (PORTA)
-    GPIO_PORTA_DEN_R  = 8; // GPIO Digital Enable (PORTA)
-    GPIO_PORTA_DATA_R = 8; // GPIO Value on (PORTA)
+    SYSCTL_RCGCGPIO_R = SYSCTL_RCGCGPIO_R6; // GPIO Run Mode Clock
+    GPIO_PORTA_DIR_R  = 85;                 // GPIO to Output (PORTG)
+    GPIO_PORTA_DEN_R  = 85;                 // GPIO Digital Enable (PORTG)
+    GPIO_PORTA_DATA_R = 85;                 // GPIO Value on (PORTG)
 
-    return 0;
+    while(1){}
 }
