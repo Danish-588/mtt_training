@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v20.2.7                     
 ******************************************************************************
->> Linked Mon May 22 15:44:22 2023
+>> Linked Mon May 22 21:00:49 2023
 
 OUTPUT FILE NAME:   <003_LEDpattern.out>
 ENTRY POINT SYMBOL: "_c_int00_noinit_noargs"  address: 000002ed
