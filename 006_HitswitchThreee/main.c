@@ -17,8 +17,8 @@ int main(void)
             if((GPIO_PORTG_DATA_R & 4) == 0)    // if p2 is low
                 GPIO_PORTG_DATA_R |=(1<<6);     // turn on led p6
             else(GPIO_PORTG_DATA_R &=(0<<6));   // turn off led p6
-            if((GPIO_PORTG_DATA_R & 8) == 0)    // if p3 is low
-                GPIO_PORTG_DATA_R |=(1<<7);     // turn on led p7
-            else(GPIO_PORTG_DATA_R &=(0<<7));   // turn off led p7
+//            if((GPIO_PORTG_DATA_R & 8) == 0)    // if p3 is low
+//                GPIO_PORTG_DATA_R |=(1<<7);     // turn on led p7
+//            else(GPIO_PORTG_DATA_R &=(0<<7));   // turn off led p7
         }
 }
