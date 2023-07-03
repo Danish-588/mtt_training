@@ -1,9 +1,11 @@
 #include <tm4c123gh6pge.h>
 #include <stdint.h>
+//include 80mhz.h file
 
 
 int main(void)
 {
+    //call System80Mhz()
     //clock
     SYSCTL_RCGC0_R |= SYSCTL_RCGC0_PWM0;            // PWM Clock
     SYSCTL_RCGC2_R |= SYSCTL_RCGC2_GPIOG;
